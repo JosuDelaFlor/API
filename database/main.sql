@@ -1,3 +1,9 @@
+DROP TABLE IF EXISTS pagos_salarios;
+DROP TABLE IF EXISTS asignaciones;
+DROP TABLE IF EXISTS proyectos;
+DROP TABLE IF EXISTS empleados;
+DROP TABLE IF EXISTS departamentos;
+
 CREATE TABLE departamentos (
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
