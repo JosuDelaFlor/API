@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_empleados_departamento AS SELECT e.*, d.nombre AS departamento FROM empleados e JOIN departamentos d ON e.departamento_id = d.id;

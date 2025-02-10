@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_departamentos AS SELECT * FROM departamentos;

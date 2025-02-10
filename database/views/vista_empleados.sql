@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_empleados AS SELECT * FROM empleados;

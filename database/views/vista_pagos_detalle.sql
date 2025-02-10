@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_pagos_detalle AS SELECT ps.*, e.nombre AS empleado FROM pagos_salarios ps JOIN empleados e ON ps.empleado_id = e.id;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_proyectos_departamento AS SELECT p.*, d.nombre AS departamento FROM proyectos p JOIN departamentos d ON p.departamento_id = d.id;

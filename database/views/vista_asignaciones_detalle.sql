@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_asignaciones_detalle AS SELECT a.*, e.nombre AS empleado, p.nombre AS proyecto FROM asignaciones a JOIN empleados e ON a.empleado_id = e.id JOIN proyectos p ON a.proyecto_id = p.id;

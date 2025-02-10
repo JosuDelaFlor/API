@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_asignaciones AS SELECT * FROM asignaciones;

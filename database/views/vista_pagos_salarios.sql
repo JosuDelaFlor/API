@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_pagos_salarios AS SELECT * FROM pagos_salarios;

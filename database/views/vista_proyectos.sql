@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vista_proyectos AS SELECT * FROM proyectos;
