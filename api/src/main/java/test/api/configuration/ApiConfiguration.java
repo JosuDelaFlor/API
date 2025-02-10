@@ -17,4 +17,5 @@ public class ApiConfiguration {
                 .version("1.0.0")
             );
     }
+    
 }
